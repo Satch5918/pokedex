@@ -1,9 +1,12 @@
 .footer {
     padding: 10px;
     background: var(--bg-gradient);
+    opacity: 80%;
     display: flex;
     justify-content: space-around;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .footerLink {
@@ -21,3 +24,4 @@
     width: 35px;
     margin: 5px 0;
 }
+
